@@ -24,7 +24,6 @@ function App() {
     { id: 3, name: '초기 상품 3', price: '3000', imageUrl: '//thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/05/31/9/5/6eb652f5-8aaf-4c7a-aea8-c2ac9979f648.jpg' },
     { id: 4, name: '초기 상품 4', price: '4000', imageUrl: '//thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/05/31/9/5/6eb652f5-8aaf-4c7a-aea8-c2ac9979f648.jpg' },
     { id: 5, name: '초기 상품 5', price: '5000', imageUrl: '//thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/05/31/9/5/6eb652f5-8aaf-4c7a-aea8-c2ac9979f648.jpg' },
-    { id: 6, name: '초기 상품 6', price: '6000', imageUrl: '//thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/05/31/9/5/6eb652f5-8aaf-4c7a-aea8-c2ac9979f648.jpg' }
   ];
 
   useEffect(() => {
