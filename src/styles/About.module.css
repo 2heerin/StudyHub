@@ -1,0 +1,54 @@
+.container {
+    height: 100vh; /* 전체 뷰포트 높이 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f8fa; /* 부드러운 배경 색상 */
+    padding: 20px;
+}
+
+.lpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 300px; /* 컨테이너 크기 설정 */
+    height: 300px;
+    margin: 0 auto;
+}
+
+.lpImage {
+    width: 250px; /* 이미지 크기를 설정 */
+    height: 250px;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+    animation: spin 10s linear infinite; /* 무한 회전 */
+}
+
+.textContainer {
+    max-width: 600px; /* 텍스트 너비 제한 */
+    text-align: center;
+    color: #333;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.playing {
+    animation: spin 10s linear infinite; /* 플레이 시 회전 애니메이션 */
+}

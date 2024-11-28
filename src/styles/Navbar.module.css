@@ -1,0 +1,32 @@
+.navbar {
+    background: #333;
+    color: white;
+    position: fixed; /* 고정 위치 */
+    top: 0; /* 화면의 상단에 위치 */
+    width: 100%; /* 전체 너비 */
+    z-index: 1000; /* 다른 요소 위에 위치 */
+    padding: 10px 20px; /* 패딩 추가 */
+  }
+
+.navList {
+    list-style: none; /* 리스트 스타일 제거 */
+    display: flex; /* Flexbox로 정렬 */
+    justify-content: center; /* 중앙 정렬 */
+    padding: 0; /* 기본 패딩 제거 */
+    margin: 0; /* 기본 마진 제거 */
+}
+
+.navItem {
+    margin: 0 15px; /* 좌우 마진 설정 */
+}
+
+.navLink {
+    color: white; /* 링크 텍스트 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+    font-weight: 800; /* 엑스트라 볼드 설정 */
+    font-size: 1.2rem; /* 링크 텍스트 크기 설정 */
+}
+
+.navLink:hover {
+    text-decoration: underline; /* 호버 시 밑줄 추가 */
+}

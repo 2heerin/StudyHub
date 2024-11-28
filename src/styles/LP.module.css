@@ -1,0 +1,34 @@
+.lpElement {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5; /* 비활성 상태 불투명도 */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.lpElement.home {
+    background-color: #f1c40f;
+}
+
+.lpElement.skills {
+    background-color: #2ecc71;
+}
+
+.lpElement.projects {
+    background-color: #e74c3c;
+}
+
+.lpElement.contact {
+    background-color: #3498db;
+}
+
+.lpElement.about {
+    background-color: #8e44ad;
+}
+
+.inView {
+    transform: scale(1.05); /* 스케일 업 효과 */
+    opacity: 1; /* 가시성 증가 */
+}

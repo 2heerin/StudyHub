@@ -1,0 +1,11 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white; /* 텍스트 색상 */
+}
+
+.contact {
+    background-color: #3498db; /* 파란색 */
+}

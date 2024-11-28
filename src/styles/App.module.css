@@ -1,0 +1,94 @@
+body {
+  font-family: 'Pretendard', sans-serif; /* Pretendard를 기본 글꼴로 설정 */
+  margin: 0; /* 기본 마진 제거 */
+}
+
+.app {
+  display: flex;
+  flex-direction: column; /* 전체적으로 세로 방향 */
+}
+
+.navbar {
+  background: #333;
+  color: white;
+  position: fixed; /* 고정 위치 */
+  top: 0; /* 화면의 상단에 위치 */
+  width: 100%; /* 전체 너비 */
+  z-index: 1000; /* 다른 요소 위에 위치 */
+  padding: 10px 20px; /* 패딩 추가 */
+}
+
+.element {
+  padding-top: 60px; /* Navbar 높이 만큼 패딩 추가 */
+}
+
+.section {
+  width: 100%; /* 각 섹션의 높이를 뷰포트 높이로 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  background-color: #2ecc71; /* 초록색 배경 */
+  color: white;
+}
+
+/* 추가적인 섹션 스타일 변경 가능 */
+.projects {
+  background-color: #e74c3c; /* 빨간색 배경 */
+  color: white;
+}
+
+.contact {
+  background-color: #3498db; /* 파란색 배경 */
+  color: white;
+}
+
+.home {
+  background-color: #f1c40f; /* 노란색 배경 */
+  color: white;
+}
+
+@font-face {
+  font-family: 'Pretendard'; /* 폰트 이름 */
+  src: url('../assets/fonts/Pretendard-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard'; /* Bold 스타일 */
+  src: 
+       url('../assets/fonts/Pretendard-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard'; /* ExtraBold 스타일 */
+  src: 
+       url('../assets/fonts/Pretendard-ExtraBold.ttf') format('truetype');
+  font-weight: 800; /* ExtraBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSans'; /* 지마켓 산스 폰트 이름 */
+  src: url('../assets/fonts/GmarketSansTTFBold.ttf') format('truetype'); /* Bold 스타일 */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSans'; /* 라이트 스타일 */
+  src: url('../assets/fonts/GmarketSansTTFLight.ttf') format('truetype'); /* Light 스타일 */
+  font-weight: 300; /* Font weight for light */
+  font-style: normal;
+}
+/* 다른 스타일도 필요에 따라 추가 가능 */
+
+/* 일반적으로 h1, h2 등에 기본 폰트 설정 */
+h1, h2, h3, p {
+  font-family: 'Pretendard', sans-serif; /* 제목에도 기본 폰트 적용 */
+}
